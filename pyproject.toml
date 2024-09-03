@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anh"
+version = "0.1.0"
+# version = ["version"]           # filled in by setuptools_scm
+requires-python = ">= 3.11"
+authors = [{name="Alan Heays",email="aheays@fastmail.com"},]
+description = "A collection of tools for spectrosocopic data analysis and modelling"
+readme = "README.md"
+license = {text="GPLv3"}
+dependencies = [
+    "bidict",
+    "cycler",
+    # "hitran-api",
+    # "brukeropusreader",
+    # "dill",
+    # "h5py",
+    "matplotlib",
+    "numpy",
+    # "openpyxl",
+    # "periodictable",
+    "scipy",
+    # "sympy",
+    # "xmltodict",
+    "pyqt5",
+    # "py3nj",
+]
+
+
+[project.scripts]
+qplot = "spectr.qplot:qplot"
+
+# [tool.setuptools]
+## if setuptools_scm is used, this will add all git-controlled files as package data
+# include-package-data = true
+
+# [tool.setuptools_scm]
+
+# [tool.setuptools.packages.find]
+# where = ["src"]  # ["."] by default
+
+# [tool.setuptools.package-data]
+# "*" = ["*.so","*.f90","Makefile"]
+
+

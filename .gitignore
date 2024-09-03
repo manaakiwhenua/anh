@@ -1,0 +1,17 @@
+tmp
+t.py
+data/hitran/cache/*
+*.so
+README.texdata/levels/Ar.h5 data/levels/Kr.h5 data/levels/O.h5 data/levels/Xe.h5 data/levels/¹H₂.h5 data/levels/¹²C¹⁶O.h5 data/levels/¹²C¹⁷O.h5 data/levels/¹²C¹⁸O.h5 data/levels/¹³C¹⁶O.h5 data/levels/¹³C¹⁷O.h5 data/levels/¹³C¹⁸O.h5 data/levels/¹⁴C¹⁶O.h5 data/levels/¹⁴C¹⁷O.h5 data/levels/¹⁴C¹⁸O.h5 data/levels/¹⁴N¹⁵N.h5 data/levels/¹⁴N₂.h5 data/levels/¹⁵N₂.h5
+data/levels/Ar.h5 data/levels/Kr.h5 data/levels/O.h5 data/levels/Xe.h5 data/levels/¹H₂.h5 data/levels/¹²C¹⁶O.h5 data/levels/¹²C¹⁷O.h5 data/levels/¹²C¹⁸O.h5 data/levels/¹³C¹⁶O.h5 data/levels/¹³C¹⁷O.h5 data/levels/¹³C¹⁸O.h5 data/levels/¹⁴C¹⁶O.h5 data/levels/¹⁴C¹⁷O.h5 data/levels/¹⁴C¹⁸O.h5 data/levels/¹⁴N¹⁵N.h5 data/levels/¹⁴N₂.h5 data/levels/¹⁵N₂.h5
+venv
+dist
+spectr.egg-info/
+README.org
+TAGS
+spectr/Makefile.bak
+spectr/__pycache__/
+spectr/data/__pycache__/
+tests/__pycache__/
+build/
+/spectr/fortran_tools-f2pywrappers2.f90
